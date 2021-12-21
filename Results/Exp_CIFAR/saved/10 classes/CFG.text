@@ -1,0 +1,22 @@
+
+    This is a CFG file.
+
+    # dataset
+    CIFAR10
+    img_size = 32
+    n = 1000 # number of data
+    y_true = 30
+    y_false = 0
+    num_class = 10
+
+    # optimization
+    Epochs = 1000000
+    lr = 0.005
+
+
+"
+grayscale 로 하면 더 안나옴..
+MNIST 는 검은 바탕에 흰 글씨라는 특징이 있었고, low dimensional manifold 에 존재해서 가능했다면
+CIFAR 는 딱히 그런게 없는 편. 픽셀별로 값이 많이 달라짐.
+
+"
